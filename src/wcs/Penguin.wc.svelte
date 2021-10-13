@@ -1,11 +1,11 @@
 <svelte:options tag="md-penguin" />
 
 <script lang="ts">
-  export let walk: boolean = false;
+  export let walk: "on" | "off" = "off";
 </script>
 
 <div>
-  {#if walk}
+  {#if walk === "on"}
     <img
       class="moving"
       src="https://mdsvex.pngwn.io/penguin.gif"
