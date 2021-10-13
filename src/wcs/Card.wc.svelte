@@ -8,7 +8,7 @@
   export let subTitle: string = "@johnsmith";
 </script>
 
-<link rel="stylesheet" href="/global.css" />
+<link rel="stylesheet" href="/svelte-docs-demo/global.css" />
 
 <div class="card" style={`width: ${width};`}>
   {#if image}
