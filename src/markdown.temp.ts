@@ -4,6 +4,8 @@ title: hello world
 list: ["item 1", "item 2"]
 ---
 
+<md-penguin walk="true"></md-penguin>
+
 # h1
 ## h2
 ### h3
